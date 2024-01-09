@@ -1,0 +1,309 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.navbarlinks{
+    display: flex;
+    column-gap: 20px;
+}
+.navbarlink a{
+    text-decoration: none;
+    color: #1d232c;
+}
+.navbarlink a:hover{
+    color: #1d232c;
+    text-decoration: underline; 
+}
+.navbartoggle{
+    display: none;
+}
+/* sidenav bar */
+
+.sidenavbar{
+    width: 50%;
+    height: 100%;
+    background-color: #1d232c;
+    position: fixed;
+    top: 0px;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 2s;
+}
+.sidenavbarlink{
+    
+    margin-bottom: 30px;
+}
+.sidenavbarlink a{
+    text-decoration: none;
+    color: white;
+}
+.sidenavbarlink a:hover{
+    text-decoration: underline;
+    border-color: white;
+}
+/* header */
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+.header-button{
+    background-color:#1d232c;
+    color: white;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+/* services */
+
+.service{
+   
+    padding: 20px;
+    
+}
+.service-container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container2{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.service-container2 div{
+    background-color: #f2f4f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+.newarrivals{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.newarrivals-container1{
+    position: relative;
+    flex-basis: 20%;
+}
+.newarrivals button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: #1d232c;
+}
+.news-letter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.news-letter input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+.news-letter button{
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #1d232c;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+}
+/* products */
+.product-section{
+    margin-top:20px;
+}
+.product-search{
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+
+}
+.products-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.products-box img{
+    border-radius: 10px;
+}
+/* contactform */
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2px;
+    margin-top: 15px;
+  
+}
+.contactbox1,.contactbox2,.contactbox3,.contactbox4{
+    padding: 20px;
+}
+.contactdetails{
+    background-color: #1d232c;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contactbox1 input,.contactbox2 input,.contactbox3 input,.contactbox4 input{
+    width: 80vw;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+#submit{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+
+/* footer */
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    color: white;
+    background-color: #1d232c;
+    
+}
+
+/* media query */
+@media screen and (max-width:700px) {
+    .navbartoggle{
+        display: block;
+    } 
+    .navbarlinks{
+        display:none;
+        
+    }
+    .img-header{
+        display: none;
+    }
+    .service-container1{
+        display: none;
+    }
+    .service-container2{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
